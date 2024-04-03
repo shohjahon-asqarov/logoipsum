@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Ipsum</title>
+
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="sticky top-0 backdrop-blur-lg">
+        <div class="container flex justify-between items-center py-6">
+            <a href="#">
+                <img src="./images/logo.svg" alt="logo">
+            </a>
+
+            <nav class="text-gray">
+                <ul class="flex space-x-10">
+                    <li>
+                        <a class="link" href="#hero">Home</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="btn-orange">Get Started</button>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- hero -->
+        <section id="hero">
+            <div class="container grid grid-cols-2 py-10 gap-10 items-center">
+                <div class="space-y-5">
+                    <h1>
+                        Grow your
+                        subscription
+                        business
+                    </h1>
+                    <p class="text-xl text-gray pr-10">
+                        Outcome-centered products that reduce churn, optimize pricing, and grow your subscription
+                        business end-to-end.
+                    </p>
+                    <div class="flex items-center space-x-8">
+                        <button class="btn-blue">Get Started</button>
+                        <a class="border border-[#E7E7E7] p-3 rounded-full" href="#companies">
+                            <img src="./images/arrow-down.svg" alt="arrow down">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/hero.png" alt="hero">
+                </div>
+            </div>
+        </section>
+
+        <!-- partner companies -->
+        <section id="companies">
+            <div class="container py-10">
+                <ul class="flex justify-between">
+                    <li>
+                        <img src="./images/logoipsum.svg" alt="logoipsum">
+                    </li>
+                    <li>
+                        <img src="./images/logoipsum.svg" alt="logoipsum">
+                    </li>
+                    <li>
+                        <img src="./images/logoipsum.svg" alt="logoipsum">
+                    </li>
+                    <li>
+                        <img src="./images/logoipsum.svg" alt="logoipsum">
+                    </li>
+                    <li>
+                        <img src="./images/logoipsum.svg" alt="logoipsum">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- features -->
+        <section id="features">
+            <div class="container mt-20 py-10">
+                <ul class="space-y-20">
+                    <li class="grid grid-cols-2 items-center">
+                        <div>
+                            <img src="./images/artist.png" alt="artist">
+                        </div>
+                        <div class="space-y-6 pr-20">
+                            <h2>Subscription index</h2>
+                            <p class="text-xl text-gray leading-[30px]">
+                                A daily dataset to keep you up to date on subscription market trends and what's
+                                happening
+                                in your vertical.
+                            </p>
+                            <a class="text-blue inline-block" href="#">Learn more</a>
+                        </div>
+                    </li>
+
+                    <li class="grid grid-cols-2 items-center">
+                        <div class="space-y-6 pr-20">
+                            <h2>In-depth metrics</h2>
+                            <p class="text-xl text-gray leading-[30px]">
+                                Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                            </p>
+                            <a class="text-blue inline-block" href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <img src="./images/analysis.png" alt="analysis">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section id="services">
+            <div class="container py-20">
+                <ul class="grid grid-cols-3 gap-10 text-center">
+                    <li>
+                        <img class="w-40 mx-auto" src="./images/benchmarks.png" alt="benchmarks">
+                        <h3 class="mt-3">Benchmarks</h3>
+                        <p class="text-gray mt-4">
+                            See how you stack up against comparable companies in similar
+                            stages.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="w-40 mx-auto" src="./images/calculator.png" alt="calculator">
+                        <h3 class="mt-3">Pricing Audit</h3>
+                        <p class="text-gray mt-4">
+                            Benchmark the health of your monetization and pricing strategy.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="w-40 mx-auto" src="./images/camera.png" alt="camera">
+                        <h3 class="mt-3">Retention Audit</h3>
+                        <p class="text-gray mt-4">
+                            Audit where revenue leakage exists and where you can increase retention.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- price -->
+        <section id="pricing">
+            <div class="container py-20">
+                <!-- top -->
+                <div class="flex justify-between items-end">
+                    <h2>
+                        Get the right plan <br>
+                        for future product.
+                    </h2>
+
+                    <div class="bg-light-card p-2 rounded-xl overflow-hidden flex ">
+                        <button class="btn-yearly py-3.5 px-0 w-36 rounded-s-md rounded-e-none active text-black">
+                            Yearly
+                        </button>
+                        <button class="btn-monthly py-3.5 px-0 w-36 rounded-s-none rounded-e-md text-black">
+                            Monthly
+                        </button>
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <ul class="grid grid-cols-3 gap-8 py-20 text-center text-gray">
+
+                    <!-- 1 -->
+                    <li class="bg-light-card rounded-xl py-10 px-8 space-y-7">
+                        <p class="text-lg">Starter</p>
+                        <h3 class="text-6xl text-[#1D293F]">Free</h3>
+                        <ul class="space-y-4 font-mulish">
+                            <li>1 Website</li>
+                            <li>5 GB Hosting</li>
+                            <li>Limited Support</li>
+                        </ul>
+                        <button class="btn-white">Get Started</button>
+                    </li>
+
+                    <!-- 2 -->
+                    <li class="bg-orange text-white rounded-xl py-10 px-8 space-y-7 scale-105">
+                        <p class="text-lg">Premium</p>
+                        <h3 class="text-6xl text-white">$29/<span class="text-3xl">month</span></h3>
+                        <ul class="space-y-4 font-mulish">
+                            <li>10 Website</li>
+                            <li>15 GB Hosting</li>
+                            <li>Premium Support</li>
+                        </ul>
+                        <button class="btn-orange-dark">Get Started</button>
+                    </li>
+
+                    <!-- 3 -->
+                    <li class="bg-light-card rounded-xl py-10 px-8 space-y-7">
+                        <p class="text-lg">Enterprise</p>
+                        <h3 class="text-6xl text-[#1D293F]">$49/<span class="text-3xl">month</span></h3>
+                        <ul class="space-y-4 font-mulish">
+                            <li>Unlimited Website</li>
+                            <li>50 GB Hosting</li>
+                            <li>Premium Support</li>
+                        </ul>
+                        <button class="btn-white">Get Started</button>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- scroll progress -->
+    <div class="fixed w-full h-2 bg-blue top-0 scroll-progress"></div>
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
